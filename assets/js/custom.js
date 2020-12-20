@@ -1,3 +1,14 @@
+
+    /*toggle menu*/
+    function openNav() {
+        document.getElementById("mySidepanel").style.width = "250px";
+    }
+    
+    function closeNav() {
+        document.getElementById("mySidepanel").style.width = "0";
+    }
+    /*toggle menu end*/
+
 $(function() {
     'use strict';
     $('.recommended-box-slider').owlCarousel({
@@ -57,16 +68,5 @@ $(function() {
 	    }
     })
 
-    
-    /*toggle menu*/
-    function openNav() {
-        document.getElementById("mySidepanel").style.width = "250px";
-    }
-    
-    function closeNav() {
-        document.getElementById("mySidepanel").style.width = "0";
-    }
-    /*toggle menu end*/
-    
     
 });
