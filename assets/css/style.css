@@ -741,6 +741,9 @@ a.advance {
 section.recommended-for-you {
     background: #f8f8f8;
 }
+section.recommended-for-you .flag{
+    width: 20px;
+}
 .recommended-slider-wrapper{
     margin-top: 35px;
 }
@@ -777,10 +780,6 @@ section.recommended-for-you {
 .box-footer {
     border-top: 1px solid #e5e5e5;
     padding-top: 20px;
-}
-.box-footer.cf .blue
-{
-    line-height: 3;
 }
 .rovigo{
     color: #555555;
